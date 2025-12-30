@@ -30,19 +30,7 @@ We use the **YouTube Trending Video Statistics** dataset from Kaggle:
 ---
 
 ## 🧩 Architecture
-```
-User Local Machine
-↓ (Upload AWS cli Commands)
-AWS S3 (Raw Bucket)
-↓ (Crawler)
-AWS Glue Catalog — raw tables
-↓ (ETL Jobs / Lambda)
-Cleaned S3 (Parquet)
-↓ (Glue / Athena)
-Athena Views & SQL Analytics
-↓ (Visualization)
-QuickSight Dashboards
-```
+![architecture](images/data-architecture.png)
 
 ---
 
