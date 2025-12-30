@@ -160,7 +160,10 @@ Partition your data efficiently (e.g., by region, date).
 Automate with Terraform or CloudFormation.
 ---
 |  📁 Folder Structure  
-|  📦 END-TO-END-DATA-ENGINEERING-PROJECT-Using-AWS  
+|  📦 END-TO-END-DATA-ENGINEERING-PROJECT-Using-AWS
+|   ┣ 📂 Glue 
+|   ┃ ┣ ETL-job-log.md  
+|   ┃ ┣ glue-error-report.md
 |   ┣ 📂 scripts  
 |   ┃ ┣ s3_cli_commands.sh  
 |   ┃ ┣ glue_etl_job.py  
