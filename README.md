@@ -141,7 +141,7 @@ YouTube
 
 ---
 
-### 📊 Visualization (Optional)
+### 📊 Visualization
 
 Connect Amazon QuickSight to Athena:
 - Create a QuickSight dataset from Athena results.
@@ -166,8 +166,6 @@ Automate with Terraform or CloudFormation.
 |   ┃ ┣ glue_etl_job.py  
 |   ┣ 📂 lambda  
 |   ┃ ┗ lambda_function.py  
-|   ┣ 📂 queries  
-|   ┃ ┗ athena_queries.sql  
 |   ┣ README.md  
 
 ---
